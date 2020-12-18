@@ -52,6 +52,7 @@ num_qubits=9
 
 
 feature_map = SecondOrderExpansion(feature_dimension=num_qubits, depth = 2, entanglement = 'full')
+** Can you send me the SecondOrderExpanion with the self_product, i am getting errors
 
 
 svm = QSVM(feature_map,training_data,testing_data)
